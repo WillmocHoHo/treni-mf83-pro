@@ -1,5 +1,80 @@
 {
-  "gymHistory": [],
+  "gymHistory": [
+    {
+      "date": "2026-04-09",
+      "planId": "plan_b_apre",
+      "type": "gym",
+      "planName": "Plan B APRE — Nogi + Plecy",
+      "sets": [
+        {
+          "exId": "deadlift",
+          "name": "Martwy ciąg",
+          "sets": [
+            {
+              "w": "40",
+              "r": "6"
+            },
+            {
+              "w": "45",
+              "r": "6"
+            },
+            {
+              "w": "55",
+              "r": "6"
+            },
+            {
+              "w": "55",
+              "r": "6"
+            }
+          ]
+        },
+        {
+          "exId": "squat",
+          "name": "Przysiad ze sztangą",
+          "sets": [
+            {
+              "w": "40",
+              "r": "6"
+            },
+            {
+              "w": "45",
+              "r": "6"
+            },
+            {
+              "w": "55",
+              "r": "6"
+            },
+            {
+              "w": "57.5",
+              "r": "4"
+            }
+          ]
+        },
+        {
+          "exId": "row",
+          "name": "Wiosłowanie sztangą",
+          "sets": [
+            {
+              "w": "25",
+              "r": "10"
+            },
+            {
+              "w": "25",
+              "r": "6"
+            },
+            {
+              "w": "30",
+              "r": "6"
+            },
+            {
+              "w": "25",
+              "r": "10"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "coreHistory": [
     {
       "date": "2026-04-06",
@@ -96,7 +171,11 @@
       ]
     }
   ],
-  "gymOrm": {},
+  "gymOrm": {
+    "squat": 66,
+    "deadlift": 73.3,
+    "row": 36
+  },
   "coreLevels": {
     "pike_pushup": 1,
     "dead_bug": 1,
